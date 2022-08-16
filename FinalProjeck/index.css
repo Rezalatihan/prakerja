@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(184, 184, 184);
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(218, 218, 218);
+  align-items: center;
+  padding: 15px;
+}
+
+.kiri a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ul li {
+  list-style: none;
+  padding: 15px;
+}
+
+.ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.banner {
+  height: 600px;
+  background: url(/image/baner.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box {
+  text-align: center;
+  z-index: 100;
+  position: relative;
+  top: 70%;
+}
+
+.abaut img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.abaut {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abaut p {
+  text-align: center;
+  width: 50%;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.texx {
+  margin: 20px;
+}
+.portofolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.portofolio img {
+  width: 150px;
+  height: 150px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: rgb(190, 190, 190);
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(56, 56, 233);
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+}
+
+.tim {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.team img {
+  width: 150px;
+  height: 150px;
+}
+
+.contact {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form input {
+  width: 600px;
+  height: 30px;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 50px;
+}
